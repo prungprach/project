@@ -1,0 +1,3 @@
+import db
+for cat in db.get_all_categories():
+    print(cat)
